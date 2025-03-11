@@ -1,0 +1,75 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo-Scouting</title>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body style="
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;">
+        <div>
+            <label for="psw" style="
+                font-size: 20px;
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 10px;
+                display: block;
+                text-align: center;"><b>JSON Scouting Form</b></label>
+        </div>
+        <div>
+            <input type="form" placeholder="JSON Scouting Form" name="form" required style="
+                width: 100%;
+                padding: 12px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                font-size: 14px;
+                text-align: center;">
+        </div>
+        <div>
+            <ul class = "Forms" style="
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+                margin-top: 20px;">
+                <li class = "Forms" style="margin: 10px 0;">
+                    <button  class = "Forms" onclick="showForm()" style="
+                    padding: 12px 20px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    transition: background-color 0.3s ease;
+                    width: 200px;">
+                    Preview Form
+                    </button>
+                </li>
+
+                <li class = "Forms" style="margin: 10px 0;">
+                    <button  class = "Forms" onclick="submitForm()" style="
+                    padding: 12px 20px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    transition: background-color 0.3s ease;
+                    width: 200px;">
+                        Validate and Submit
+                    </button>
+                </li>
+            </ul>
+        </div>
+  </body>
